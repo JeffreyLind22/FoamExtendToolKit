@@ -25,3 +25,5 @@ sed -i -e 's=rpmbuild --define=rpmbuild --define "_build_id_links none" --define
 mkdir -p $FOAM_RUN
 
 echo "alias fe50='source \$HOME/foam/foam-extend-5.0/etc/bashrc'" >> $HOME/.bashrc
+
+. ~/.bashrc
